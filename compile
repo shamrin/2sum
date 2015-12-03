@@ -3,4 +3,3 @@
 mkdir -p build
 rm build/* 2> /dev/null
 gcc -O3 -w q1.c -o build/q1
-clang++ q1.cxx -o build/q1++ -O3 -std=c++11
